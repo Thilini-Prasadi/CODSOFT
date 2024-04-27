@@ -1,0 +1,148 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; 
+} 
+
+.row {
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.column {
+    width: 100%;
+    min-width: 0; 
+    border: 0px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box; 
+}
+
+/* Column 1 Styles */
+.column-1 {
+    background: linear-gradient(to right, #FEB75B, #DC43B7);
+}
+
+.content {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.social-icons {
+    display: flex;
+}
+
+.social-icons a {
+    margin-right: 10px; 
+}
+
+.contact-info p {
+    margin: 0;
+}
+
+/* Column 2 Styles */
+.column-2 {
+    background-color: #ffffff; 
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+}
+
+
+.smaller-text {
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.larger-text {
+    font-size: 50px;
+}
+
+/* Column 3 Styles */
+.column-3 {
+    background-image: url('CDA.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    color: #fff; 
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.largest-text{
+    font-size: 75px;
+}
+
+/* Column 4 Styles */
+.column-4 {
+    background: linear-gradient(to right, #FEB75B, #DC43B7);
+}
+
+.large-text {
+    font-size: 35px;
+}
+
+.column-inner {
+    width: calc(33.33% - 10px); 
+    float: left;
+    margin-right: 10px; 
+    box-sizing: border-box; 
+}
+
+/* Column 5 Styles */
+.column-5 {
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.column-inner2 {
+    width: calc(50% - 10px); 
+    float: left;
+    margin-right: 10px; 
+    box-sizing: border-box; 
+}
+
+/* Column 6 Styles */
+.column-6 {
+    background-color: lightgrey; 
+    text-align: center;
+}
+
+.column-inner3 {
+    width: calc(33.33% - 10px); 
+    float: left;
+    text-align: center;
+    margin-right: 10px; 
+    box-sizing: border-box; 
+}
+
+.about-us img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.button1 {
+    background-color: #FEB75B;
+    border-radius: 25px;
+    width: 175px;
+    height: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+.button2 {
+    background: linear-gradient(to right, #FEB75B, #DC43B7);
+    border-radius: 25px;
+    width: 175px;
+    height: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
